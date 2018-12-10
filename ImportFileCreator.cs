@@ -13,12 +13,12 @@ namespace PrototypeStressTester
     public static class ImportFileCreator
     {
         /// <summary>
-        /// Creates the <amount> of fake import files requested and returns their filenames.
+        /// Creates the <amount> of fake import files requested.
         /// Each sensor-value is a randomly generated double and the names of the sensors are obviously meaningless.
         /// </summary>
-        public static void CreateFiles(int amount, int[] imos, string[] sensorNames)
+        public static void CreateFiles(int amountOfDays, int[] imos, string[] sensorNames)
         {
-            if(amount > 365 * 10) throw new Exception("No more than 10 years, please.");
+            if(amountOfDays > 365 * 10) throw new Exception("No more than 10 years, please.");
 
             string projectDirectory = GetProjectDirectory();
             
@@ -26,12 +26,14 @@ namespace PrototypeStressTester
 
             foreach(var imo in imos)
             {
-                for(int i = 0; i < amount - 1; i++)
+                var fileDate = DateTime.Today.AddDays(- (amountOfDays));
+
+                for (int i = 0; i < amountOfDays; i++)
                 {
-                    var fileDate = new DateTime(2000, 1, 1);
                     var fileName = $"{imo}_{fileDate.Year}{StringifyMonthOrYearInt(fileDate.Month)}{StringifyMonthOrYearInt(fileDate.Day)}_03000.csv";
 
-                    using(var newFileStr = File.CreateText($"{projectDirectory}\\Output\\{fileName}"))
+                    var resultDir = $"{projectDirectory}\\Output\\{fileName}";
+                    using (var newFileStr = File.CreateText(resultDir))
                     {
                         for(int j = 0; j < rowAmount; j++)
                         {
@@ -47,13 +49,15 @@ namespace PrototypeStressTester
                                 var randomSensorValuesAsStr = string.Join(',', randomSensorValues.Select(v => v.ToString()));
 
                                 newLine = $"{fileDate},{randomSensorValuesAsStr}";
+                                fileDate = fileDate.AddMinutes(1);
                             }
 
                             newFileStr.WriteLine(newLine);
-                            fileDate = fileDate.AddMinutes(1);
                         }
                     }
 
+                    // Removing the minutes we just added to the fileDate DateTime when we were filling rows
+                    fileDate = fileDate.AddMinutes(-1440);
                     fileDate = fileDate.AddDays(1);
                 }
             }
@@ -61,7 +65,7 @@ namespace PrototypeStressTester
 
         private static string GetProjectDirectory()
         {
-            return Directory.GetCurrentDirectory();
+            return Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName;
         }
 
         private static string StringifyMonthOrYearInt(int monthOrYear)

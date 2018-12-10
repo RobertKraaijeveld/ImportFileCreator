@@ -1,7 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using ThesisPrototype;
+using ThesisPrototype.DatabaseApis;
+using ThesisPrototype.Enums;
 
 namespace PrototypeStressTester
 {
@@ -11,12 +11,12 @@ namespace PrototypeStressTester
         {
             using (var ctx = new PrototypeContext())
             {
-                int[] imos = ctx.Ships.Select(x => x.ImoNumber).ToArray();
-                string[] sensorNames = Enum.GetNames(typeof(ESensor)).ToArray();
+                int amountOfDays = 365 * 3; // 3 years
+                int[] imos = ctx.Ships.Select(x => x.ImoNumber).ToArray(); // all ships (35 of them, to be exact)
+                string[] sensorNames = Enum.GetNames(typeof(ESensor)).ToArray(); // 151 sensors
 
-                ImportFileCreator.CreateFiles(1, imos, sensorNames);
+                ImportFileCreator.CreateFiles(amountOfDays, imos, sensorNames);
             }
-
         }
     }
 }
