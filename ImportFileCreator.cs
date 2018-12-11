@@ -65,7 +65,7 @@ namespace PrototypeStressTester
 
         private static string GetProjectDirectory()
         {
-            return Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName;
+            return Directory.GetParent(Directory.GetCurrentDirectory()).FullName;
         }
 
         private static string StringifyMonthOrYearInt(int monthOrYear)
