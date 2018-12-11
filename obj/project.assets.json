@@ -5540,6 +5540,27 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
+      },
+      "ThesisPrototype/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.All": "2.1.6",
+          "Microsoft.AspNetCore.Authentication.Cookies": "2.1.2",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.1.6",
+          "Microsoft.EntityFrameworkCore.Design": "2.1.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.4",
+          "Microsoft.NETCore.App": "2.1.0",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.6",
+          "Newtonsoft.JSON": "12.0.1",
+          "System.Dynamic.Runtime": "4.3.0"
+        },
+        "compile": {
+          "bin/placeholder/ThesisPrototype.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ThesisPrototype.dll": {}
+        }
       }
     }
   },
@@ -14665,18 +14686,23 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "ThesisPrototype/1.0.0": {
+      "type": "project",
+      "path": "../ThesisPrototype/ThesisPrototype.csproj",
+      "msbuildProject": "../ThesisPrototype/ThesisPrototype.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "C:\\Projects\\Afstudeerprototype\\ThesisPrototype\\ThesisPrototype.csproj",
       "Microsoft.AspNetCore.All >= 2.1.6",
       "Microsoft.AspNetCore.Authentication.Cookies >= 2.1.2",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 2.1.6",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.6",
       "Newtonsoft.Json >= 12.0.1",
-      "System.Dynamic.Runtime >= 4.3.0"
+      "System.Dynamic.Runtime >= 4.3.0",
+      "ThesisPrototype >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -14686,11 +14712,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Afstudeerprototype\\PrototypeStressTester\\PrototypeStressTester.csproj",
-      "projectName": "PrototypeStressTester",
-      "projectPath": "C:\\Projects\\Afstudeerprototype\\PrototypeStressTester\\PrototypeStressTester.csproj",
+      "projectUniqueName": "C:\\Projects\\Afstudeerprototype\\ThesisPrototype\\ImportFileCreator\\ImportFileCreator.csproj",
+      "projectName": "ImportFileCreator",
+      "projectPath": "C:\\Projects\\Afstudeerprototype\\ThesisPrototype\\ImportFileCreator\\ImportFileCreator.csproj",
       "packagesPath": "C:\\Users\\kraaijeveld\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Afstudeerprototype\\PrototypeStressTester\\obj\\",
+      "outputPath": "C:\\Projects\\Afstudeerprototype\\ThesisPrototype\\ImportFileCreator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -14710,8 +14736,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Projects\\Afstudeerprototype\\ThesisPrototype\\ThesisPrototype.csproj": {
-              "projectPath": "C:\\Projects\\Afstudeerprototype\\ThesisPrototype\\ThesisPrototype.csproj"
+            "C:\\Projects\\Afstudeerprototype\\ThesisPrototype\\ThesisPrototype\\ThesisPrototype.csproj": {
+              "projectPath": "C:\\Projects\\Afstudeerprototype\\ThesisPrototype\\ThesisPrototype\\ThesisPrototype.csproj"
             }
           }
         }
@@ -14762,16 +14788,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'C:\\Projects\\Afstudeerprototype\\ThesisPrototype\\ThesisPrototype.csproj'. Inside Visual Studio, this may be because the project is unloaded or not part of current solution. Otherwise the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Projects\\Afstudeerprototype\\ThesisPrototype\\ThesisPrototype.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.1"
-      ]
-    }
-  ]
+  }
 }
