@@ -7,6 +7,7 @@ Requires the same pre-requisites as the full thesis prototype.
 
 Running
 ---------
+0. > mkdir Output
 1. Change ''amountOfDays'' integer in Program.cs to the amount of days you wish to be created, default is three years. 
 2. > dotnet restore
 3. > dotnet run
