@@ -1,0 +1,16 @@
+C:\Projects\Afstudeerprototype\PrototypeStressTester\bin\Debug\netcoreapp2.1\ThesisPrototype.Views.dll
+C:\Projects\Afstudeerprototype\PrototypeStressTester\bin\Debug\netcoreapp2.1\ThesisPrototype.Views.pdb
+C:\Projects\Afstudeerprototype\PrototypeStressTester\bin\Debug\netcoreapp2.1\PrototypeStressTester.deps.json
+C:\Projects\Afstudeerprototype\PrototypeStressTester\bin\Debug\netcoreapp2.1\PrototypeStressTester.runtimeconfig.json
+C:\Projects\Afstudeerprototype\PrototypeStressTester\bin\Debug\netcoreapp2.1\PrototypeStressTester.runtimeconfig.dev.json
+C:\Projects\Afstudeerprototype\PrototypeStressTester\bin\Debug\netcoreapp2.1\PrototypeStressTester.dll
+C:\Projects\Afstudeerprototype\PrototypeStressTester\bin\Debug\netcoreapp2.1\PrototypeStressTester.pdb
+C:\Projects\Afstudeerprototype\PrototypeStressTester\bin\Debug\netcoreapp2.1\ThesisPrototype.dll
+C:\Projects\Afstudeerprototype\PrototypeStressTester\bin\Debug\netcoreapp2.1\ThesisPrototype.pdb
+C:\Projects\Afstudeerprototype\PrototypeStressTester\obj\Debug\netcoreapp2.1\PrototypeStressTester.csprojAssemblyReference.cache
+C:\Projects\Afstudeerprototype\PrototypeStressTester\obj\Debug\netcoreapp2.1\PrototypeStressTester.csproj.CoreCompileInputs.cache
+C:\Projects\Afstudeerprototype\PrototypeStressTester\obj\Debug\netcoreapp2.1\PrototypeStressTester.AssemblyInfoInputs.cache
+C:\Projects\Afstudeerprototype\PrototypeStressTester\obj\Debug\netcoreapp2.1\PrototypeStressTester.AssemblyInfo.cs
+C:\Projects\Afstudeerprototype\PrototypeStressTester\obj\Debug\netcoreapp2.1\PrototypeStressTester.csproj.CopyComplete
+C:\Projects\Afstudeerprototype\PrototypeStressTester\obj\Debug\netcoreapp2.1\PrototypeStressTester.dll
+C:\Projects\Afstudeerprototype\PrototypeStressTester\obj\Debug\netcoreapp2.1\PrototypeStressTester.pdb
