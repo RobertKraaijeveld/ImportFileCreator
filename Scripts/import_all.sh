@@ -7,7 +7,7 @@ SECONDS=0
 url=http://localhost:53392
 
 localFiles=""
-for f in $(find -type f -name "*.csv" | cut -c 3-) 
+for f in $(find -type f -name "*.csv" | sort -V | cut -c 3-) 
 do
     localFiles="$localFiles $f"
 done

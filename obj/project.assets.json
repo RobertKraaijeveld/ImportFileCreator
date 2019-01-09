@@ -5540,30 +5540,6 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
-<<<<<<< HEAD
-=======
-      },
-      "ThesisPrototype/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "Microsoft.AspNetCore.All": "2.1.6",
-          "Microsoft.AspNetCore.Authentication.Cookies": "2.1.2",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.1.6",
-          "Microsoft.EntityFrameworkCore.Design": "2.1.4",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.4",
-          "Microsoft.NETCore.App": "2.1.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.6",
-          "Newtonsoft.JSON": "12.0.1",
-          "System.Dynamic.Runtime": "4.3.0"
-        },
-        "compile": {
-          "bin/placeholder/ThesisPrototype.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ThesisPrototype.dll": {}
-        }
->>>>>>> a126f98d2e9e2dc17dc6fab70a0f2330a31f592b
       }
     }
   },
@@ -7248,6 +7224,7 @@
       "path": "microsoft.data.edm/5.8.2",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net40/Microsoft.Data.Edm.dll",
         "lib/net40/Microsoft.Data.Edm.xml",
         "lib/net40/de/Microsoft.Data.Edm.resources.dll",
@@ -7313,6 +7290,7 @@
       "path": "microsoft.data.odata/5.8.2",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net40/Microsoft.Data.OData.dll",
         "lib/net40/Microsoft.Data.OData.xml",
         "lib/net40/de/Microsoft.Data.OData.resources.dll",
@@ -9782,11 +9760,7 @@
       ]
     },
     "System.Buffers/4.5.0": {
-<<<<<<< HEAD
       "sha512": "pL2ChpaRRWI/p4LXyy4RgeWlYF2sgfj/pnVMvBqwNFr5cXg7CXNnWZWxrOONLg8VGdFB8oB+EG2Qw4MLgTOe+A==",
-=======
-      "sha512": "xpHYjjtyTEpzMwtSQBWdVc3dPjLdQtvyUg6fBlBqcLl1r2Y7gDG/W/enAYOB98nG3oD3Q153Y2FBO8JDWd+0Xw==",
->>>>>>> a126f98d2e9e2dc17dc6fab70a0f2330a31f592b
       "type": "package",
       "path": "system.buffers/4.5.0",
       "files": [
@@ -13574,6 +13548,7 @@
       "path": "system.spatial/5.8.2",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net40/System.Spatial.dll",
         "lib/net40/System.Spatial.xml",
         "lib/net40/de/System.Spatial.resources.dll",
@@ -14693,14 +14668,6 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
-<<<<<<< HEAD
-=======
-    },
-    "ThesisPrototype/1.0.0": {
-      "type": "project",
-      "path": "../ThesisPrototype/ThesisPrototype.csproj",
-      "msbuildProject": "../ThesisPrototype/ThesisPrototype.csproj"
->>>>>>> a126f98d2e9e2dc17dc6fab70a0f2330a31f592b
     }
   },
   "projectFileDependencyGroups": {
@@ -14711,12 +14678,7 @@
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.6",
       "Newtonsoft.Json >= 12.0.1",
-<<<<<<< HEAD
       "System.Dynamic.Runtime >= 4.3.0"
-=======
-      "System.Dynamic.Runtime >= 4.3.0",
-      "ThesisPrototype >= 1.0.0"
->>>>>>> a126f98d2e9e2dc17dc6fab70a0f2330a31f592b
     ]
   },
   "packageFolders": {
@@ -14726,19 +14688,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Projects\\Afstudeerprototype\\ImportFileCreator\\ImportFileCreator.csproj",
+      "projectUniqueName": "C:\\Projects\\Temp\\ImportFileCreator\\ImportFileCreator.csproj",
       "projectName": "ImportFileCreator",
-      "projectPath": "C:\\Projects\\Afstudeerprototype\\ImportFileCreator\\ImportFileCreator.csproj",
+      "projectPath": "C:\\Projects\\Temp\\ImportFileCreator\\ImportFileCreator.csproj",
       "packagesPath": "C:\\Users\\kraaijeveld\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Afstudeerprototype\\ImportFileCreator\\obj\\",
-=======
-      "projectUniqueName": "C:\\Projects\\Afstudeerprototype\\ThesisPrototype\\ImportFileCreator\\ImportFileCreator.csproj",
-      "projectName": "ImportFileCreator",
-      "projectPath": "C:\\Projects\\Afstudeerprototype\\ThesisPrototype\\ImportFileCreator\\ImportFileCreator.csproj",
-      "packagesPath": "C:\\Users\\kraaijeveld\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Afstudeerprototype\\ThesisPrototype\\ImportFileCreator\\obj\\",
->>>>>>> a126f98d2e9e2dc17dc6fab70a0f2330a31f592b
+      "outputPath": "C:\\Projects\\Temp\\ImportFileCreator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -14757,15 +14711,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-<<<<<<< HEAD
           "projectReferences": {}
-=======
-          "projectReferences": {
-            "C:\\Projects\\Afstudeerprototype\\ThesisPrototype\\ThesisPrototype\\ThesisPrototype.csproj": {
-              "projectPath": "C:\\Projects\\Afstudeerprototype\\ThesisPrototype\\ThesisPrototype\\ThesisPrototype.csproj"
-            }
-          }
->>>>>>> a126f98d2e9e2dc17dc6fab70a0f2330a31f592b
         }
       },
       "warningProperties": {
@@ -14814,5 +14760,13 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Projects\\Temp\\ImportFileCreator\\obj\\ImportFileCreator.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

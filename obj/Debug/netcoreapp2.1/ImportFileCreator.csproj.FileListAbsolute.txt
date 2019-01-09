@@ -25,3 +25,14 @@ C:\Projects\Afstudeerprototype\ImportFileCreator\bin\Debug\netcoreapp2.1\ImportF
 C:\Projects\Afstudeerprototype\ImportFileCreator\bin\Debug\netcoreapp2.1\ImportFileCreator.pdb
 C:\Projects\Afstudeerprototype\ImportFileCreator\obj\Debug\netcoreapp2.1\ImportFileCreator.dll
 C:\Projects\Afstudeerprototype\ImportFileCreator\obj\Debug\netcoreapp2.1\ImportFileCreator.pdb
+C:\Projects\Temp\ImportFileCreator\bin\Debug\netcoreapp2.1\ImportFileCreator.deps.json
+C:\Projects\Temp\ImportFileCreator\bin\Debug\netcoreapp2.1\ImportFileCreator.runtimeconfig.json
+C:\Projects\Temp\ImportFileCreator\bin\Debug\netcoreapp2.1\ImportFileCreator.runtimeconfig.dev.json
+C:\Projects\Temp\ImportFileCreator\bin\Debug\netcoreapp2.1\ImportFileCreator.dll
+C:\Projects\Temp\ImportFileCreator\bin\Debug\netcoreapp2.1\ImportFileCreator.pdb
+C:\Projects\Temp\ImportFileCreator\obj\Debug\netcoreapp2.1\ImportFileCreator.csprojAssemblyReference.cache
+C:\Projects\Temp\ImportFileCreator\obj\Debug\netcoreapp2.1\ImportFileCreator.csproj.CoreCompileInputs.cache
+C:\Projects\Temp\ImportFileCreator\obj\Debug\netcoreapp2.1\ImportFileCreator.AssemblyInfoInputs.cache
+C:\Projects\Temp\ImportFileCreator\obj\Debug\netcoreapp2.1\ImportFileCreator.AssemblyInfo.cs
+C:\Projects\Temp\ImportFileCreator\obj\Debug\netcoreapp2.1\ImportFileCreator.dll
+C:\Projects\Temp\ImportFileCreator\obj\Debug\netcoreapp2.1\ImportFileCreator.pdb
